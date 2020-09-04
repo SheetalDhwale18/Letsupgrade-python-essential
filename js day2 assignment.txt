@@ -1,0 +1,106 @@
+//Assignment Day 2 |30 august 2020
+
+1)Program to search a particular character in a string.
+ 
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to search a character form string and display the position of the match.</p>
+
+<button onclick="que1()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function que1() {
+  var str = "thank you letsupgrade"; 
+  var n = str.search("l");
+  document.getElementById("demo").innerHTML = n;
+}
+</script>
+
+</body>
+</html>
+
+-----------------------------------------------------------------------------------------------------------
+2)program to convert minutes to seconds.
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to convert minutes to seconds .</p>
+
+<button onclick="que2()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function que2() {
+ var min=30;
+ var sec=min*60;
+  document.getElementById("demo").innerHTML = sec;
+}
+</script>
+
+</body>
+</html>
+--------------------------------------------------------------------------------------------------------------
+3)program to search for a element in a array of string . 
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to search a character form string and display the position of the match.</p>
+
+<button onclick="que1()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function que1() {
+  var array = ["thank", "you" ,"letsupgrade"]; 
+  var n= array.indexOf("thank")
+  
+ document.getElementById("demo").innerHTML = n;
+}
+</script>
+
+</body>
+</html>
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+
+5)print an array in reverse order 
+
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+// Create and display an array:
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+
+function myFunction() {
+ 
+  // Then reverse it:
+  fruits.reverse();
+  document.getElementById("demo").innerHTML = fruits;
+}
+</script>
+
+</body>
+</html>
+------------------------------------------------------------------------------------------------------------------------
